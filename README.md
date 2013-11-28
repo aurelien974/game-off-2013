@@ -1,4 +1,4 @@
-![Handle The Changes Screenshot Menu](HandleTheChange_menu.png)
+![Handle The Changes Screenshot Menu](HandleTheChanges_menu.png)
 
 # Handle The Changes !
 
@@ -26,7 +26,7 @@ And I would like to thank the creators of the *free and open source* assets belo
 ## Screenshots
 
 *Beginning of a versus game :*
-![Handle The Changes Screenshot](HandleTheChange_inGame.png)
+![Handle The Changes Screenshot](HandleTheChanges_inGame.png)
 
 ## About the game
 
