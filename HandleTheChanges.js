@@ -221,6 +221,7 @@ var handleComplete = function () {
 
 var initMenu = function() {
 	stage.removeChild(pourcentageCharg);
+	createjs.Sound.setVolume(0.5);
 	musiqueMenu = createjs.Sound.play("musiqueMenu", {loop:-1, volume:0.4});
 	// Titre
 	var titre = new createjs.Text("Handle The Changes !", "30px Bangers, Trebuchet MS", "rgba(255,255,255,1)");
