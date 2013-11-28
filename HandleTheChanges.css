@@ -1,0 +1,116 @@
+/*
+	COMMUN
+*/
+
+#blocPage
+{
+	width 	: 1000px;
+	margin	: auto;
+	font-family	: "Century Gothic", Arial, sans-serif;
+}
+
+header
+{
+	border-bottom	: 3px solid teal;
+}
+
+footer
+{
+	margin-top	: 20px;
+	border-top	: 3px solid teal;
+	text-align	: right;
+	padding	: 10px;
+}
+
+#blocJeu
+{
+	padding-left	: 20px;
+}
+
+#infosJeu
+{
+	width	: 800px;
+	margin-top	: 10px;
+	border	: 1px solid black;
+	border-radius	: 6px;
+	box-shadow	: 0 0 6px black;
+	font-family	: Arial, Tahoma, "trebuchet ms", "Century Gothic", sans-serif;
+}
+
+#infosJeu a
+{
+	font-style : italic;
+	text-decoration : none;
+	color	: navy;
+}
+
+#infosJeu a:hover
+{
+	text-shadow : 0 0 10px blue;
+}
+
+#infosJeu strong
+{
+	font-weight	: bold;
+}
+
+#infosJeu em
+{
+	font-style : normal;
+	color	: teal;
+}
+
+#infosJeu  > ul 
+{
+	list-style-type	: none;
+	padding-left	: 10px;
+}
+
+#infosJeu > ul > li > ul
+{
+	list-style-type	: none;
+	display	: inline-block;
+	vertical-align	: top;
+	margin	: 0px;
+	text-align	: justify;
+	width	: 78%;
+	padding-left : 0px;
+}
+
+#infosJeu > ul > li > strong
+{
+	display	: inline-block;
+	width	: 17%;
+	text-align	: right;
+	padding-right	: 10px;
+	font-variant	: small-caps;
+	font-size	: 1.1em;
+}
+
+#infosJeu > ul > li > ul > li
+{
+	margin-bottom	: 5px;
+}
+
+#infosJeu > ul > li
+{
+	margin-bottom	: 15px;
+}
+
+#infosJeu > ul > li > ul > li > ul
+{
+	list-style-type	: square;
+}
+
+/*
+	DIFFERENT
+*/
+
+#conteneurCanvas
+{
+	display	: inline-block;
+	width	: 800px;
+	height	: 480px;
+	border	: 1px solid black;
+	box-shadow	: 0 0 6px black;
+}

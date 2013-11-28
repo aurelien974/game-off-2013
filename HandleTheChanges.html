@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<!--
+	"Handle The Changes" est un jeu créé en novembre 2013 par Aurélien Picolet.
+	"Handle The Changes" is a game created in November 2013 by Aurélien Picolet for the GitHub Game Off II game jam.
+-->
+<!--
+	TO ADD : menu, other games made, GCD, GDD, About Me
+-->
+	<head>
+		<meta charset="utf-8" />
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Monofett|Limelight|Bangers' type='text/css'>
+		<link rel="stylesheet" href="HandleTheChanges.css" />
+		<style>/* Removes Mobile Highlight */ *{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}</style>
+		<title>Handle The Changes - Aurélien Picolet</title>
+		<script src="http://code.createjs.com/createjs-2013.09.25.min.js"></script>
+	</head>
+ 
+	<body>
+		<div id="blocPage">
+			<header>
+				<h1>Aurélien Picolet</h1>
+				<h2>Portfolio</h2>
+			</header>
+			
+			<section id="blocJeu">
+				
+				<h1 id="titreJeu">Handle The Changes</h1>
+
+				<article id="conteneurCanvas">
+					<canvas id="canvasJeu" width="800" height="480">
+					Votre navigateur ne supporte pas l'élément HTML5 Canvas, veuillez le mettre à jour.
+					</canvas>
+				</article>
+				
+				<aside id="infosJeu">
+					<ul>
+						<li><strong>Controls : </strong>
+							<ul>
+								<li>Use the mouse for the menus and the <em>letters</em> on the keyboard to move the character : read the rules <em>given ingame</em> to know wich ones.</li>
+							</ul>
+						</li>
+						<li><strong>Rules : </strong>
+							<ul>
+								<li><em>Follow the rules</em> displayed on the left board and make the <em>fewest mistakes</em>.</li>
+								<li>Pay attention to the rules, <em>they change !</em></li>
+								<li>In 2-player mode, the one most <em>responsive</em> to change will win !</li>
+								<li>In single-player mode, the challenge is to stay as long as possible in the game. It's good <em>practice</em> for when you compete against a friend.</li>
+								<li>When the last rule says that you play your opponent's character, you have to follow his rules (the inputs don't change) and try to make mistakes to <em>make him lose</em> the game (but he'll try to do the same for you!).</li>
+							</ul>
+						</li>
+						<li>
+						<strong>About the game : </strong>
+							<ul>
+								<li>Handle The Changes is a <em>HTML5 game</em> created by Aurélien Picolet for the <a href="https://github.com/blog/1674-github-game-off-ii">GitHub Game Off II</a> of November 2013.</li>
+								<li>I used the libraries of the <a href="http://www.createjs.com/#!/CreateJS">CreateJS</a> suite.</li>
+								<li>I would like to thank the creators of the free and open source assets below :
+									<ul>
+										<li>the playable characters : <a href="http://kenney.nl/">kenney.nl</a></li>
+										<li>the HUD, grass and stones : <a href="http://opengameart.org/users/buch">Buch</a></li>
+										<li>some icons : <a href="http://ionicons.com/">ionicons</a></li>
+										<li>the other icons : Font Awesome by Dave Gandy - <a href="http://fontawesome.io">http://fontawesome.io</a></li>
+										<li>musics : <a href="http://www.freesound.org/people/kasa90/">kasa90</a></li>
+										<li>sounds : made with <a href="http://www.drpetter.se/project_sfxr.html">sfxr</a> by DrPetter</li>
+										<li>Google Fonts : Limelight (by Sorkin Type), Monofett and Bangers (by Vernon Adams)</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</aside>
+				
+			</section>
+			
+			<footer>
+				<address>E-mail : <a href="mailto:aurelien.picolet@gmail.com">aurelien.picolet@gmail.com</a></address>
+			</footer>
+		</div>
+		
+		<script src="HandleTheChanges.js"></script>
+		
+	</body>
+</html>
